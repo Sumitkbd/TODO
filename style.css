@@ -1,4 +1,6 @@
-
+body{
+	background-image: linear-gradient(to right,rgba(255,0,0,1) ,rgba(255,0,0,0));
+}
 .h101{ 
     color:rgb(243, 152, 14); 
     font-size: 3cm; 
@@ -32,6 +34,7 @@ input {
 
 #cd01{
     border: transparent;
+	background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
 }
 
 
