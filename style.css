@@ -1,43 +1,54 @@
-body{
-	background-image: linear-gradient(to right,rgba(255,0,0,1) ,rgba(255,0,0,0));
+body {
+	background-color: #f8f9fa;
+	font-family: 'Arial', sans-serif;
 }
-.h101{ 
-    color:rgb(243, 152, 14); 
-    font-size: 3cm; 
-    font-weight: bold;
-    border: transparent;
-    text-shadow: 15px 15px  black;
-    font-family:Apple Chancery, cursive;
-} 
 
-p{
-	border-radius: 8px;
-	width: 500px;
-	padding: 5px;
+.h101 {
+	color: #ff5733;
+	font-size: 3rem;
 	font-weight: bold;
-	border: 0.5px solid black;
+	text-shadow: 2px 2px #ccc;
+	font-family: 'Helvetica', sans-serif;
 }
 
-p > button {
-    float: right;
-	background-color: transparent;
-	border: transparent;
-	
+.card {
+	border-radius: 15px;
 }
 
-input {
-	border-radius: 8px;
-	width: 500px;
-	padding: 5px;
-	background-color:lightgrey;
+#inputfield {
+	border-radius: 15px 0 0 15px;
 }
 
-#cd01{
-    border: transparent;
-	background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+#addtodo {
+	border-radius: 0 15px 15px 0;
 }
 
+#clearButton {
+	display: block;
+	justify-content: center;
+	text-align: center;
+	margin-top: 10px;
 
+}
 
+#todocontainer p {
+	border-radius: 15px;
+	padding: 10px;
+	background-color: #fff;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
 
- 
+#todocontainer p button {
+	border: none;
+	background: none;
+	color: #dc3545;
+	font-size: 1.2rem;
+}
+
+#cd01 {
+	border: none;
+}
